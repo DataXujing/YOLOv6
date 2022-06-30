@@ -228,7 +228,7 @@ python deploy/ONNX/export_onnx.py --weights runs/train/exp/weights/last_ckpt.pt 
 ```shell
 
 python tensorrt/yolov6_add_postprocess.py
-python tensorrt/add_nms.pt
+python tensorrt/yolov6_add_nms.py
 
 ```
 
